@@ -1,5 +1,32 @@
 * {
-
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.btn-arrow {
+    padding : 10px 100px;
+    text-decoration: none;
+    text-align: left;
+    border: .5px solid #000;
+    height: 50px;
+    white-space: nowrap;
+}
+
+.btn-arrow::after {
+   
+    content: "  ❤️";
 }
