@@ -19,7 +19,6 @@
 
 .btn-arrow {
     padding : 10px 100px;
-    text-decoration: none;
     text-align: left;
     border: .5px solid #000;
     height: 50px;
@@ -29,4 +28,9 @@
 .btn-arrow::after {
    
     content: "  ❤️";
+}
+
+.btn-arrow::before {
+   
+    content: "❤️  ";
 }
